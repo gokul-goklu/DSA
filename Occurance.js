@@ -9,5 +9,5 @@ const occurance = (num) => {
   return mapping;
 };
 
-const num = [1, 2, 87, 4, 5, 23, 87, 3, 2, 5, 1, 87];
+const num = aabbsscc;
 console.log(occurance(num));
