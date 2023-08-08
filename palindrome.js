@@ -13,5 +13,5 @@ const palindromicString = (str) => {
   } else console.log("not palindrome");
 };
 
-let str = "Malayala";
+let str = "Malayalam";
 palindromicString(str);
