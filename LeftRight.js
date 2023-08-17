@@ -1,4 +1,4 @@
-const number = (num) => {
+const alterNumber = (num) => {
   for (let i = 0; i < num.length; i++) {
     if (num[i] == 1) {
       for (j = i + 1; j < num.length; j++) {
@@ -14,5 +14,5 @@ const number = (num) => {
   console.log(num);
 };
 
-const num = [1, 0, 1, 1, 0, 0, 0, 1];
-number(num);
+const num = [0, 0, 1, 1, 0, 0, 0, 1];
+alterNumber(num);
